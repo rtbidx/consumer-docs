@@ -6,6 +6,12 @@ This is a callback consumer for real-time bidder program
 ## Overview
 This document provides instructions on how to use the `/report` and `/api-key` endpoints of the application. These endpoints are designed for external parties to generate reports and obtain API keys for authentication.
 
+### Base URL
+All API endpoints described in this documentation are accessible at:
+```
+https://impbid.com
+```
+
 ---
 
 ## 1. `/api-key` Endpoint
