@@ -1,5 +1,5 @@
-# RTBX CB
-This is a callback consumer for real-time bidder program
+# RTBX Report API
+This is a report generation API for RTBX platform.
 
 # API Documentation
 
