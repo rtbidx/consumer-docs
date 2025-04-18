@@ -73,16 +73,22 @@ X-API-Key: <your-api-key>
 
 ### Example Response
 ```json
-[
-  {
-    "date": "2025-04-01",
-    "data": "..."
-  },
-  {
-    "date": "2025-04-02",
-    "data": "..."
-  }
-]
+{
+  "reports": [
+    {
+      "timezone": "UTC",
+      "currency": "USD",
+      "data": {
+        "2025-04-13": [
+          {
+            "imps": 79073,
+            "cost": 25.6511
+          }
+        ]
+      }
+    }
+  ]
+}
 ```
 
 ---
